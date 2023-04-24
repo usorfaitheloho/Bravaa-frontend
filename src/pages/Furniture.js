@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const Furniture = () => {
-  return (
-    <div>Furniture</div>
-  )
-}
+const Furniture = () => (
+  <div>Furniture</div>
+);
 
-export default Furniture
+export default Furniture;
