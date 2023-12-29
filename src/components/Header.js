@@ -1,13 +1,13 @@
 import React from 'react';
-import MediaQuery from 'react-responsive';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import logo from '../images/logo.png';
 
 const Header = () => (
-  <Header>
-    <div className="" />
-  </Header>
+  <header>
+    <div className="flex items-center justify-between h-16 p-4">
+      <img src={logo} alt="Logo" className="h-[12px] md:h-[20px] lg:h-[30px] w-14" />
+      <h1> This is the header page </h1>
+    </div>
+  </header>
 
 );
 
