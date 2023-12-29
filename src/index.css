@@ -4,6 +4,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Raleway&display=swap');
 
+:root {
+
+  --primary-red: #fe0000;
+  --primary-green: #10572c;
+  --primary-yellow: #ffa41c;
+}
+
+
 *,
 ::before,
 ::after {
